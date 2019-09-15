@@ -1,0 +1,39 @@
+body{
+    padding: 20px;
+}
+.container1{
+    display: flex;
+}
+
+.c11,.c12{ 
+    height: 200px;
+    background-color: lightblue;
+    width: 50%;
+    margin: 10px;
+}
+
+
+.c21,.c22,.c23{ height: 200px; background-color: #F08080; margin: 10px;}
+.c21,.c23{ width: 25%;}
+.c22{width: 50%;}
+
+.c31,.c32,.c33{ height: 200px; background-color:#BA55D3; margin: 10px; }
+.c32{ width: 25%}
+.c31,.c33{ width: 37.5%;}
+
+.container2{display: flex;justify-content: space-between;}
+.c41,.c42{height: 200px; background-color:#98FB98; margin: 10px;width: 33%;}
+
+.container3{display: flex;justify-content:center; }
+.c51,.c52{height: 200px; background-color:#FAEBD7; margin: 10px;width: 33%;}
+
+.container4{ display: flex; justify-content: space-around;}
+.c61,.c62,.c63{height: 200px; background-color: #778899; margin: 10px; width: 25%;}
+
+.container5{display: flex; justify-content:flex-end;}
+.c71,.c72,.c73,.c74{height: 200px; background-color: #20B2AA; margin: 10px; width: 16.5%;}
+
+.container6{display: flex; justify-content: stretch;}
+.container61{ display: flex; justify-content: flex-start;height: 200px;width: 50%;}
+.container62{ display: flex; justify-content: flex-end; height: 200px;width: 50%;}
+.c81,.c82,.c83{height: 200px; background-color: #EEE8AA; margin: 10px; width: 50%;}

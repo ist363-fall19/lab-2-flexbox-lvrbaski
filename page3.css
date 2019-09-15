@@ -1,1 +1,16 @@
-body {font:18px/1.25 'Arial', sans-serif; }
+body {font:18px/1.25 'Arial', sans-serif; margin: 0px; padding: 0px; height: 100%; }
+html{padding: 0px; margin: 0px; height: 100%;}
+
+.tweet-list{width: 1200px; display: flex;flex-wrap: wrap; margin: auto;  }
+
+.tweet-item{margin: 10px;border-style: solid; border-color: lightgray; border-width: 1px; padding: 20px; width: 289px;}
+
+a{ text-decoration: none; color: black; padding: 10px; }
+
+.tweet-header{ padding: 10px; border-bottom-width:1px; border-bottom-style: solid; border-bottom-color: lightgray;
+align-items: baseline;}
+
+.tweet-body{ padding-top: 20px; padding-bottom: 20px; font-size: 15px; border-bottom-style: solid;
+border-bottom-width: 1px;border-bottom-color: lightgrey;}
+
+.tweet-footer{ text-align: right; padding-top: 10px; font-size: 15px;margin: 0px;}
